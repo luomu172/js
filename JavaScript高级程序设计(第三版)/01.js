@@ -22,3 +22,5 @@ function createComparisonFunc(propertyName){
 
 var data = [{name:'张三',age:28},{name:'李四',age:29}];
 data.sort(createComparisonFunc('age'));
+
+
